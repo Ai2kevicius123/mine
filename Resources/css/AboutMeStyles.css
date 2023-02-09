@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;  
+    font-family: League Spartan;
+}
+
+html {
+    font-family: Helvetica;
+    line-height: normal;
+}
+
+body {
+    background-color: white;
+    color: black;
+    opacity: 1;
+}
+
+
+@media (max-width: 800px) {
+  html, body {
+  overflow-x: hidden;
+  }
+}
+
+/* Header Styling */
+
+.header {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 13em;
+    width: auto;
+    margin-left: 5%;
+}
+
+.navigation {
+    margin-right: 5em;
+}
+
+.navigation li {
+    display: inline-flex;
+    padding-right: 25px;
+    margin-top: 4.5em;
+    text-align: right;
+    font-size: 1.3em;
+}
+
+.navigation li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation li a:visited {
+    color: black;
+}
+
+.navigation li a:hover {
+    color: #497FDF;
+}
+
+
+@media only screen and (max-width: 1624px) {
+  
+  .navigation {
+   margin-right: 10px;
+   text-align: center;
+}
+  #logo {
+  margin-left: 10px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+  #logo {
+   margin-left: 0;
+}
+
+.navigation {
+  margin-right: 0;
+}
+}
+
+@media only screen and (max-width: 800px) {
+  
+   #logo {
+    display: none;
+  }
+  
+  .header {
+    display: block;
+    
+  }
+
+  .navigation {
+    background-color: #5286D6;
+  }
+
+  .navigation li a:hover {
+    color:#52D6A2
+  }
+
+  .navigation li {
+    text-align: center;
+    padding: 1em;
+    margin: auto;
+    
+  }
+}
+
+@media only screen and (max-width: 560px) {
+
+  .header {
+    font-size: 1em
+  }
+}
+
+
+@media only screen and (max-width: 485px) {
+  .navigation li {
+    padding-right: 0px;
+    font-size: 1.1em;
+  }
+}
+
+.about-me-section {
+    display: flex;
+    margin-top: 10em;
+}
+
+.about-me-container {
+    text-align: left;
+    margin: auto;
+}
+
+.about-me-container h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    padding: 0.2em;
+}
+
+.about-me-container h4 {
+    font-size: 1.2em;
+    padding: 0.5em;
+}
+
+#about-myself-img {
+    width: 600px;
+    height: 300px;
+    margin-top: 3em;
+    margin-right: 10em;
+    background-color: #497FDF;
+    border-radius: 50%;
+
+
+
+}
